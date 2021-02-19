@@ -1,0 +1,11 @@
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\bin\Debug\netstandard2.1\PaymentMerchant.Infrastructure.deps.json
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\bin\Debug\netstandard2.1\PaymentMerchant.Infrastructure.dll
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\obj\Debug\netstandard2.1\PaymentMerchant.Infrastructure.csprojAssemblyReference.cache
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\obj\Debug\netstandard2.1\PaymentMerchant.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\obj\Debug\netstandard2.1\PaymentMerchant.Infrastructure.AssemblyInfo.cs
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\bin\Debug\netstandard2.1\PaymentMerchant.Infrastructure.pdb
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\bin\Debug\netstandard2.1\PaymentMerchant.Core.dll
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\bin\Debug\netstandard2.1\PaymentMerchant.Core.pdb
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\obj\Debug\netstandard2.1\PaymentMerchant.Infrastructure.csproj.CopyComplete
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\obj\Debug\netstandard2.1\PaymentMerchant.Infrastructure.dll
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Infrastructure\obj\Debug\netstandard2.1\PaymentMerchant.Infrastructure.pdb
