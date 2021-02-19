@@ -1,0 +1,3 @@
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\obj\Debug\netstandard2.0\PaymentMerchant.Core.csprojAssemblyReference.cache
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\obj\Debug\netstandard2.0\PaymentMerchant.Core.AssemblyInfoInputs.cache
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\obj\Debug\netstandard2.0\PaymentMerchant.Core.AssemblyInfo.cs

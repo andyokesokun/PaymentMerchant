@@ -1,0 +1,8 @@
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\bin\Debug\netstandard2.1\PaymentMerchant.Core.deps.json
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\bin\Debug\netstandard2.1\PaymentMerchant.Core.dll
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\obj\Debug\netstandard2.1\PaymentMerchant.Core.csprojAssemblyReference.cache
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\obj\Debug\netstandard2.1\PaymentMerchant.Core.AssemblyInfoInputs.cache
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\obj\Debug\netstandard2.1\PaymentMerchant.Core.AssemblyInfo.cs
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\bin\Debug\netstandard2.1\PaymentMerchant.Core.pdb
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\obj\Debug\netstandard2.1\PaymentMerchant.Core.dll
+C:\Users\okesokunan\source\repos\PaymentMerchant\src\PaymentMerchant.Core\obj\Debug\netstandard2.1\PaymentMerchant.Core.pdb
