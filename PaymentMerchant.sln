@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMerchant.API", "src\PaymentMerchant.API\PaymentMerchant.API.csproj", "{2AB03D85-736B-4D66-8828-3EB200304A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMerchant.Core", "src\PaymentMerchant.Core\PaymentMerchant.Core.csproj", "{DED727D6-B4B4-4F81-8C05-C5142313CF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMerchant.Infrastructure", "src\PaymentMerchant.Infrastructure\PaymentMerchant.Infrastructure.csproj", "{BDB7DFBB-A335-4A79-A41E-6CC415791E75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AB03D85-736B-4D66-8828-3EB200304A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB03D85-736B-4D66-8828-3EB200304A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB03D85-736B-4D66-8828-3EB200304A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB03D85-736B-4D66-8828-3EB200304A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED727D6-B4B4-4F81-8C05-C5142313CF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED727D6-B4B4-4F81-8C05-C5142313CF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED727D6-B4B4-4F81-8C05-C5142313CF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED727D6-B4B4-4F81-8C05-C5142313CF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB7DFBB-A335-4A79-A41E-6CC415791E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB7DFBB-A335-4A79-A41E-6CC415791E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB7DFBB-A335-4A79-A41E-6CC415791E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB7DFBB-A335-4A79-A41E-6CC415791E75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFE258D2-4FBE-47D4-A40D-35B605B6F79C}
+	EndGlobalSection
+EndGlobal
