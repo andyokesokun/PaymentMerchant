@@ -1,1 +1,7 @@
 /.vs
+/src/PaymentMerchant.API/obj
+/src/PaymentMerchant.Infrastructure/obj
+/src/PaymentMerchant.Core/obj
+/src/PaymentMerchant.Core/bin
+/src/PaymentMerchant.Infrastructure/bin
+
