@@ -35,9 +35,9 @@ namespace PaymentMerchant.Infrastructure.Migrations
                     b.Property<DateTime>("ExpirationDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("SecurityCode")
+                    b.Property<int>("SecurityCode")
                         .HasMaxLength(3)
-                        .HasColumnType("TEXT");
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
@@ -55,7 +55,7 @@ namespace PaymentMerchant.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PaymentStatus");
+                    b.ToTable("PaymentStatuses");
                 });
 
             modelBuilder.Entity("PaymentMerchant.Core.Entities.Transaction", b =>
@@ -67,11 +67,11 @@ namespace PaymentMerchant.Infrastructure.Migrations
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("CardId")
+                    b.Property<int>("CreditCardId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("CreditCardId")
-                        .HasColumnType("INTEGER");
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("PaymentStatusId")
                         .HasColumnType("INTEGER");
@@ -89,7 +89,9 @@ namespace PaymentMerchant.Infrastructure.Migrations
                 {
                     b.HasOne("PaymentMerchant.Core.Entities.CreditCard", "CreditCard")
                         .WithMany("Transactions")
-                        .HasForeignKey("CreditCardId");
+                        .HasForeignKey("CreditCardId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("PaymentMerchant.Core.Entities.PaymentStatus", "PaymentStatus")
                         .WithMany()
