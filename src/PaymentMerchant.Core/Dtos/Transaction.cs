@@ -10,12 +10,13 @@ namespace PaymentMerchant.Core.Dtos
     {
         public int Id { get; set; }
         [Required]
-        public int CardId { get; set; }
+        public int CreditCardId { get; set; }
         [Required]
         public int PaymentStatusId { get; set; }
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public Decimal Amount { get; set; }
+        public DateTime Date { get; set; } = new DateTime();
     }
 
 }

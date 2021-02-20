@@ -15,6 +15,6 @@ namespace PaymentMerchant.Infrastructure.Data
 
         public  DbSet<CreditCard> CreditCards { get; set; }
         public  DbSet<Transaction> Transactions { get; set; }
-        public DbSet<PaymentStatus> PaymentStatus { get; set; }
+        public DbSet<PaymentStatus> PaymentStatuses { get; set; }
     }
 }

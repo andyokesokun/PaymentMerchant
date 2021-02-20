@@ -17,6 +17,7 @@ namespace PaymentMerchant.Core.Dtos
         [Required]
         public DateTime ExpirationDate { get; set;} 
         [MaxLength(3)]
-        public string SecurityCode { get; set; }
+        [Required]
+        public int SecurityCode { get; set; }
     }
 }

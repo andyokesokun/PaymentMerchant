@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMerchant.API", "src\PaymentMerchant.API\PaymentMerchant.API.csproj", "{2AB03D85-736B-4D66-8828-3EB200304A37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMerchant.API", "src\PaymentMerchant.API\PaymentMerchant.API.csproj", "{2AB03D85-736B-4D66-8828-3EB200304A37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMerchant.Core", "src\PaymentMerchant.Core\PaymentMerchant.Core.csproj", "{DED727D6-B4B4-4F81-8C05-C5142313CF73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMerchant.Core", "src\PaymentMerchant.Core\PaymentMerchant.Core.csproj", "{DED727D6-B4B4-4F81-8C05-C5142313CF73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMerchant.Infrastructure", "src\PaymentMerchant.Infrastructure\PaymentMerchant.Infrastructure.csproj", "{BDB7DFBB-A335-4A79-A41E-6CC415791E75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMerchant.Infrastructure", "src\PaymentMerchant.Infrastructure\PaymentMerchant.Infrastructure.csproj", "{BDB7DFBB-A335-4A79-A41E-6CC415791E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMerchant.Test", "src\PaymentMerchant.Test\PaymentMerchant.Test.csproj", "{7185BA68-F8BC-46D1-9C87-5AD7EA088D72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA7ACF3D-DED0-41A4-B377-0E9BDE1B7C10}"
+	ProjectSection(SolutionItems) = preProject
+		Query.sql = Query.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,10 @@ Global
 		{BDB7DFBB-A335-4A79-A41E-6CC415791E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDB7DFBB-A335-4A79-A41E-6CC415791E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDB7DFBB-A335-4A79-A41E-6CC415791E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7185BA68-F8BC-46D1-9C87-5AD7EA088D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7185BA68-F8BC-46D1-9C87-5AD7EA088D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7185BA68-F8BC-46D1-9C87-5AD7EA088D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7185BA68-F8BC-46D1-9C87-5AD7EA088D72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

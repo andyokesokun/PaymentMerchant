@@ -6,7 +6,7 @@ namespace PaymentMerchant.Core.Entities
 {
     public class Transaction : Dtos.Transaction
     {
-        public  CreditCard  CreditCard{ get; set; }
-        public  PaymentStatus PaymentStatus { get; set; }
+        public virtual CreditCard  CreditCard{ get; set; }
+        public virtual PaymentStatus PaymentStatus { get; set; }
     }
 }
